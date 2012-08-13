@@ -1,6 +1,5 @@
 module Tweets
   module DbStrategies
-
     module MapReduce
 
       # Map/Reduce approach with threads in local machinne
