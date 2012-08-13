@@ -5,5 +5,6 @@ require 'database'
 require 'processing_simulator'
 require 'db_strategies/db_strategy'
 require 'db_strategies/one_big_file'
-require 'db_strategies/map_reduce_with_threads'
+require 'db_strategies/map_reduce/node'
+require 'db_strategies/map_reduce/with_threads'
 

@@ -7,7 +7,7 @@ require 'tweets'
 class MapReduceWithThreadsTest < Test::Unit::TestCase
 
   def setup
-    @db = Tweets::DbStrategies::MapReduceWithThreads.new
+    @db = Tweets::DbStrategies::MapReduce::WithThreads.new
   end
 
   def test_count_hashtags
