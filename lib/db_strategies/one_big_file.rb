@@ -2,8 +2,8 @@ module Tweets
   module DbStrategies
     
     # Lazy approach:
-    # - can be load a big file (1Go or more...), it's dangerous
-    # - not scalable
+    # - load a big file (1Go or more...), it's dangerous
+    # - no scalability
     class OneBigFile < DbStrategy
       BIG_FILE_NAME = "data/one_big_file.tweets"
 
